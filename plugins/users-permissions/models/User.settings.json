@@ -33,7 +33,7 @@
       "type": "boolean",
       "default": false,
       "configurable": false
-    }, 
+    },
     "blocked": {
       "type": "boolean",
       "default": false,
@@ -44,6 +44,12 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "provider": {
+      "default": "",
+      "type": "string",
+      "configurable": false
     }
-  }
+  },
+  "collectionName": "users-permissions_user"
 }
