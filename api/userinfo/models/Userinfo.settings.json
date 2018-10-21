@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "userinfo",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "firstname": {
+      "default": "",
+      "type": "string"
+    },
+    "lastname": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
