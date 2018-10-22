@@ -106,7 +106,7 @@ module.exports = async cb => {
     // Don't display fields that are hidden by default like the resetPasswordToken for the model user
     fieldsToRemove.forEach(field => {
       _.unset(fields, field);
-      _.unset(schemaModel.attributes, field);
+      // _.unset(schemaModel.attributes, field);
     });
 
     schemaModel.fields = fields;
